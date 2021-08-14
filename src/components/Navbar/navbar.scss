@@ -1,0 +1,24 @@
+.navbar-collapse.collapse {
+  border-left: 1px solid lightgrey;
+}
+
+.nav-link {
+  color: #2f4f4f !important;
+}
+
+.modal-footer {
+  justify-content: flex-start !important;
+}
+
+.navbar-brand {
+  width: 100px;
+}
+
+.btn ~ .btn {
+  background-color: #ffffff !important;
+  color: #2f4f4f;
+
+  &:hover {
+    color: #2f4f4fba;
+  }
+}
