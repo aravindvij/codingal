@@ -1,0 +1,14 @@
+.btn-primary {
+  color: $secondary;
+
+  &:hover {
+    color: $secondary;
+  }
+}
+
+.btn-secondary {
+  border-color: $primary;
+  &:hover {
+    border-color: $primary;
+  }
+}

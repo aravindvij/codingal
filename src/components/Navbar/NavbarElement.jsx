@@ -1,5 +1,4 @@
 import { Navbar, Nav, Container, Button, Modal } from "react-bootstrap";
-import './navbar.scss';
 import Timer from '../Timer/Timer';
 import React from 'react';
 import { useState, useRef } from 'react';
@@ -66,7 +65,7 @@ export default function NavbarElement() {
                                     <Button onClick={handleEndClass}>
                                         End class
                                     </Button>
-                                    <Button onClick={handleClose}>
+                                    <Button variant="secondary" onClick={handleClose}>
                                         Cancel
                                     </Button>
                                 </Modal.Footer>

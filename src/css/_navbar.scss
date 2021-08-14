@@ -1,0 +1,15 @@
+.navbar-collapse.collapse {
+  border-left: 1px solid $light-gray;
+}
+
+.nav-link {
+  color: $dark;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $dark;
+}
+
+.navbar-brand {
+  width: 100px;
+}
